@@ -1,0 +1,226 @@
+body{
+    margin: 0;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background:linear-gradient(to right, rgb(17, 143, 246), #a51fff);
+    color: white;
+    font-weight: bold;
+  }
+  
+  header{
+    background-color: black;
+    color: white;
+    padding: 1% 1%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:-1%;
+  
+  }
+
+
+  .logo-container img {
+    width: 25%;
+    height:auto;
+    margin-top: -9%;
+
+  }
+
+  .logo-text {
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: -18.9%;
+    margin-left: 28.8%;
+  }
+           /*  */
+  .menu img {
+    width: 19%;
+    height:auto;
+    margin-top: 0%;
+    margin-left: -5%;
+  }
+  
+  .notif img {
+    width: 19%;
+    height:auto;
+    margin-top:0;
+    margin-left: -80%;
+  }
+
+  .calen img {
+    width: 20%;
+    height: auto;
+    margin-top: 0;
+    margin-left: -148%;
+  }
+
+  .ann img {
+    width: 21%;
+    height: auto;
+    margin-top: 0;
+    margin-left: -225%;
+  }
+
+  .logout img{
+    width: 17%;
+    height: auto;
+    margin-top: 0;
+    margin-left: 80%;
+  }
+
+  .labli img{
+    width: 19%;
+    height: auto;
+    margin-top: -8%;
+    margin-left: -1%;
+  }
+
+  .profile{
+    font-size: 80%;
+    font-weight: bold;
+    margin-top: -14.9%;
+    margin-left: 21.8%;
+  }
+    /*  */
+
+  .srch-btn{
+    background-color: rgb(119, 110, 247);
+    color:black;
+    border: none;
+    padding: 16.5% 30.6%;
+    border-radius: 10%;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -950%;
+    margin-top: -1.9%;
+
+  } 
+
+  .srch-btn:hover{
+    background-color: rgb(201, 59, 253);
+  }
+                                           /* NAVIGATION BAR */
+ #container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 900%;
+  
+ }
+ #container div {
+  margin-top: 2%;
+  height: 250px;
+  width: 25%;
+  background-color: rgb(29, 21, 52);
+  margin: 3%;
+  text-align: center;
+  border-radius: 10%;
+ }
+
+ #container h1 {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  top: 16%;
+ }
+
+ #container p {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-top: 15%;
+  font-size: 400%;
+ }
+                           /* nay pie chart */
+#container2{
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-left: -35%;
+  margin-top: -4%;
+
+} 
+
+#container2 div {
+ margin-top: 2%;
+ height: 290px;
+ width: 25%;
+ background-color: rgb(29, 21, 52);
+ margin: 3%;
+ text-align: center;
+ border-radius: 10%;
+}
+
+#container2 h1 {
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ position: relative;
+ top: -1%;
+ font-size: 150%;
+ margin-top: 5%;
+}
+
+#container2 h2 {
+  margin-top: 0%;
+}
+
+#container2 p {
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ margin-top: 15%;
+ font-size: 400%;
+}
+                                         /* Top fitness */
+#container3 {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-left: 35%; 
+  margin-top: -25.3%;
+  }
+
+  #container3 div {
+  margin-top: 10%;
+  height: 65px;
+  width: 45%;
+  background-color: rgb(29, 21, 52);
+  margin: 3%;
+  text-align: center;
+  border-radius: 20px ;
+}
+
+#container3 h1{
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ position: relative;
+ top: -30%;
+ font-size: 140%;
+ margin-top: 8%;
+}
+
+                                            /* NAMES */
+ #container4 {
+  display: flex;
+  justify-content: center;
+  align-items: right;
+  margin-left: 35%; 
+  margin-top: -3.3%;
+}
+                                            
+  #container4 div {
+    margin-top: 10%;
+    height: 210px;
+    width: 45%;
+    background-color: rgb(29, 21, 52);
+    margin: 3%;
+    text-align: center;
+    border-radius: 20px ;
+}
+                                            
+  #container4 p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: relative;
+    top: -10%;
+    font-size: 140%;
+    margin-top: 35px;
+    margin-bottom: -15px;
+    padding: -3px;
+}
+
+  

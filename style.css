@@ -1,0 +1,529 @@
+body{
+    margin: 0;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background:linear-gradient(to right, rgb(17, 143, 246), #a51fff);
+    color: black;
+    font-weight: bold;
+  }
+  
+  /* pinakataas nga header */
+  header{
+    background-color: rgb(35, 2, 43);  
+    color: white;
+    padding: 1% 1%;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+  }
+
+
+  .logo-container img {
+    width: 10%;
+    height:auto;
+    margin-top: -4%;
+
+  
+  }
+
+  .logo-text {
+    font-size: 100%;
+    font-weight: bold;
+    margin-top: -7.9%;
+    margin-left: 12%;
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    display: inline-flex;
+    margin-right: -15%;
+  }
+
+  .navi {
+    list-style-type: none;
+    margin: 0;
+    display:inline-flex;
+    margin-right: -100%;
+  }
+  
+  /* ABOUT US */
+  .nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding:0;
+    text-align: center;
+    margin-left: -100%;
+    
+  }
+
+  /* HELP & SUPPORT */
+  .navit li a {
+    text-decoration: none;
+    color: white;
+    margin-left: -1%;
+    
+  }
+
+  /* HOME */
+  .navita li a{
+    text-decoration: none;
+    color: white;
+    margin-left: -5%;
+  }
+
+  .navita1 {
+    list-style-type: none;
+    margin: 0;
+    display: inline-flex;
+    margin-left: -150%;
+  }
+                              /*  */
+  .login-btn {
+    background-color: rgb(108, 43, 121);
+    color: #fff;
+    border: none;
+    padding: 20% 70%;
+    border-radius: 10%;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -600%;
+    text-decoration: none;
+  }
+
+  .login-btn:hover{
+    background-color: rgb(38, 2, 88);
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .srch-btn{
+    background-color: rgb(108, 43, 121);
+    color:white;
+    border: none;
+    padding: 10.5% 30.6%;
+    border-radius: 10%;
+    cursor: pointer;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: -500%;
+    margin-top: -1.9%;
+
+  } 
+
+  .srch-btn:hover{
+    background-color: rgb(38, 2, 88);
+  }
+                                           /* WHY FITNESS NGA PART */
+.bottom-nav {
+  background-color: rgb(108, 43, 121);
+  padding: 1% 0;
+  border-top: 1% solid #ccc;
+  }
+                                          
+.bottom-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-left: 4%;
+  gap: 5%;
+  }
+                                          
+  .bottom-nav ul li a {
+   text-decoration: none;
+   color: whitesmoke;
+   font-size: 90%;
+   font-weight: bold;
+  }
+                                          
+  
+
+  .hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background: linear-gradient(to right, rgb(246, 17, 219), #441fff);
+  }
+  
+  .content h1 {
+    font-size: 2.5rem;
+    color: white;
+  }
+  
+  .content p {
+    color: white;
+    margin: 5% 0;
+  }
+  
+  .apply-btn {
+    background-color: palevioletred;
+    color: #fff;
+    padding: 1% 2%;
+    border: none;
+    border-radius: 10%;
+    cursor: pointer;
+  }
+
+                                                      /* IMAGE SLIDESHOW */
+  #slideshow {
+    margin-top: 0;
+    margin-left: -1;
+  }                                                  
+  
+  #slideshow img {
+  width: 100%;
+  height: 500px;
+  display: none;
+  
+ }
+                                                      
+  #slideshow img.first {
+    display: block;
+  }
+                                                      
+  .overlay {
+  position: absolute;
+  top: 43%; /* Vertically center the text */
+  left: 50%; /* Horizontally center */
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  padding: 1%;
+  border-radius: 8%;
+ }
+                                                      
+  .overlay h2 {
+  font-size: 200%;
+  margin-bottom: 5%;
+  } 
+  
+  .overlay p{
+    font-size: 100%;
+    margin-bottom: 4%;
+  }
+                                                     
+  .btn-primary {
+    background-color: rgb(74, 10, 74);
+    color: white;
+    border: none;
+    padding: 2% 5%;
+    border-radius:10%;
+    cursor: pointer;
+    font-size: 100%;
+  }                                                  
+  
+  .btn-primary:hover {
+    background-color: purple;
+  }
+                                                      /* IMAGE GALLERY 1 */
+
+  .section1{
+  background:linear-gradient(to bottom, rgb(108, 43, 121), #38075b);
+  margin: 1%;
+  border-radius: 10%;
+  width: 25%;
+  padding: 2%;
+  color: white;
+
+}   
+.section1Margin{
+  margin-right: 1%;
+}                                             
+.bodystep1{
+  border:solid;
+  border-color: transparent;
+  border-width: 90%;
+  border-radius: 10%;
+}
+.btn1{
+  background-color: rgb(108, 43, 121);
+  color: white;
+  border: none;
+  padding: 2% 5%;
+  border-radius:10%;
+  cursor: pointer;
+  font-size: 100%;
+}
+.btn1:hover{
+  background-color: rgb(108, 24, 97);
+}
+
+                /*  */
+.section2{
+background: linear-gradient(to bottom, rgb(108, 43, 121), #38075b);
+margin: 5%;
+margin-top: 0%;
+margin-bottom: 1%;
+border-radius: 10%;
+width: 25%;
+padding: 2%;
+color:white;
+}
+                
+.section2Margin{
+margin-right: 1%;
+}
+                
+.bodystep2{
+border:solid;
+border-color: transparent;
+border-width: 90%;
+border-radius: 10%;
+}
+.btn2{
+  background-color: rgb(108, 43, 121);
+  color: white;
+  border: none;
+  padding: 2% 5%;
+  border-radius:10%;
+  cursor: pointer;
+  font-size: 100%;
+}
+.btn2:hover{
+  background-color: rgb(108, 24, 97);
+}
+
+                   /*  */
+.section3{
+  background:linear-gradient(to bottom, rgb(108, 43, 121), #38075b);
+  margin: 1%;
+  border-radius: 10%;
+  width: 25%;
+  padding: 2%;
+  color: white;
+  }
+                  
+  .section3Margin{
+  margin-right: 1%;
+  }
+                  
+  .bodystep3{
+  border:solid;
+  border-color: transparent;
+  border-width: 90%;
+  border-radius: 10%;
+  }
+
+  .btn3{
+  background-color: rgb(108, 43, 121);
+  color: white;
+  border: none;
+  padding: 2% 5%;
+  border-radius:10%;
+  cursor: pointer;
+  font-size: 100%;
+}
+.btn3:hover{
+  background-color: rgb(108, 24, 97);
+}
+
+                                          /* IMAGE GALLERY 2 */
+
+.section4{
+  background:linear-gradient(to bottom, rgb(108, 43, 121), #38075b);
+  margin: 1%;
+  border-radius: 10%;
+  width: 25%;
+  padding: 2%;
+  color:white;
+}   
+.section4Margin{
+  margin-right: 1%;
+}                                             
+.bodystep4{
+  border:solid;
+  border-color:transparent;
+  border-width: 90%;
+  border-radius: 10%;
+}
+
+.btn4{
+  background-color: rgb(108, 43, 121);
+  color:white;
+  border: none;
+  padding: 2% 5%;
+  border-radius: 10%;
+  cursor: pointer;
+  font-size: 100%;
+}
+                                        
+.btn4:hover{
+  background-color: rgb(108, 24, 97);
+}
+                                          
+                                                          /*  */
+.section5{
+  background: linear-gradient(to bottom, rgb(108, 43, 121), #38075b);
+  margin: 5%;
+  margin-top: 0%;
+  margin-bottom: 1%;
+  border-radius: 10%;
+  width: 25%;
+  padding: 2%;
+  color: white;
+}
+                                                          
+.section5Margin{
+  margin-right: 1%;
+}
+                                                          
+.bodystep5{
+  border:solid;
+  border-color: transparent;
+  border-width: 90%;
+  border-radius: 10%;
+}
+  
+.btn5{
+  background-color: rgb(108, 43, 121);
+  color: rgb(255, 255, 255);
+  border: none;
+  padding: 2% 5%;
+  border-radius:10%;
+  cursor: pointer;
+  font-size: 100%; 
+}
+                                          
+.btn5:hover{
+  background-color: rgb(108, 24, 97);
+}
+                                          
+                                                             /*  */
+.section6{
+  background:linear-gradient(to bottom, rgb(108, 43, 121), #38075b);
+  margin: 1%;
+  border-radius: 10%;
+  width: 25%;
+  padding: 2%;
+  color:white;
+}
+                                                            
+.section6Margin{
+  margin-right: 1%;
+}
+                                                            
+.bodystep6{
+  border:solid;
+  border-color: transparent;
+  border-width: 90%;
+  border-radius: 10%;
+}
+                                          
+.btn6{
+  background-color: rgb(108, 43, 121);
+  color: white;
+  border: none;
+  padding: 2% 5%;
+  border-radius:10%;
+  cursor: pointer;
+  font-size: 100%;
+}
+.btn6:hover{
+    background-color: rgb(108, 24, 97);
+}
+                                          /* YOUTUBE LINK AND GOOGLE MAP */
+ .navibar{
+  margin-top: 4%;
+  background-color:rgb(108, 43, 121);
+  margin-bottom: 5%;
+ }                                    
+ .container {
+   display: flex;
+   justify-content: center;
+   align-items: flex-start; 
+   gap: 3%;
+   padding: 2%;
+}
+                                      
+.youtube iframe,
+.googlemap iframe {
+ width: 100%;
+ border: 0;
+}
+                                      
+.youtube {
+   flex: 1; /* Video takes more space */
+}
+                                      
+.googlemap {
+ flex: 1; /* Map takes equal space */
+ max-width: 100%; /* Optional limit for map width */
+
+}
+
+.navibar2{
+  margin-top: 2%;
+}
+
+                                            /* CONTACT INFO */
+.navibari{
+  margin-top: -5%;
+  padding-top: 24%;
+  background-color:rgb(35, 2, 43);;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 1%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+  margin-top: -20%;
+  padding: 3.5%;
+}
+
+.footer-left {
+  text-align: left;
+}
+
+.footer-left h2,
+.footer-left p {
+  margin: 0;
+  font-size: 150%;
+  color: white;
+  margin-left: 25%;
+}
+
+.footer-left a {
+  color: white;
+  text-decoration: none;
+}
+
+.social-icons {
+  margin-top: 10%;
+  margin-left: 20%;
+}
+
+.social-icons .icon img {
+  width: 15%;
+  height: 40px;
+  margin: 0 3%;
+}
+
+.footer-right a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  margin: 5%;
+  font-size: 120%;
+}
+
+
+.footer-bottom {
+  margin-top: 1%;
+  font-size: 100%;
+  margin-left: 43%;
+  color: white;
+
+}
+

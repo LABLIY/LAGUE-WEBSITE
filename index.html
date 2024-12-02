@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class Scheduling System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <img src="logo.png"  alt="Logo" class="logo-image">
+            <div class="logo-text">Next Level Fitness</div>
+            </div>
+            
+            <ul class="nav-links">
+              <li><a href="#about-us">About Us</a></li>
+            </ul>
+            
+        <div class="navit">
+            <ul class="navi">
+              <li><a href="#HS">Help & Support</a></li>
+            </ul>
+        </div>
+
+        <div class="navita">
+          <ul class="navita1">
+            <li><a href="#Home">Home</a></li>
+          </ul>
+        </div>
+
+
+            
+        <div>
+            <button class="login-btn"><a href="login.html">Log In</a></button>
+        </div>
+
+        <div>
+          <button class="srch-btn">🔍Search</button>
+        </nav>
+        </div>
+        
+      </header>
+                                                              <!--  -->
+<nav class="bottom-nav">
+    <ul>
+       <li><a href="#section1">Why fitness first</a></li>
+       <li><a href="#section2">Classes</a></li>
+       <li><a href="#section3">Personal Training</a></li>
+    </ul>
+</nav>
+
+                                                              <!--IMAGE SLIDESHOW  -->
+
+<!-- SLIDE 1 -->
+  <div id="slideshow">
+    <img src="WORKOUT1.png" class="first">
+    <div class="overlay">
+      <h2>The body achieves what the mind <br>
+        believes</h2>
+        <p>Hustle hard, Stay consistent</p>
+        <button class="btn-primary">Schedule now</button>
+      </div>
+      <img src="WORKOUT2.png">
+      <img src="WORKOUT3.png">
+                                              <!-- FUNCTION SA SLIDESHOW -->
+
+    <script type="text/javascript">
+      var slideshow = 0;
+      const slides = document.querySelectorAll('#slideshow img');
+
+      function showNextSlide (){
+        slides[slideshow].classList.remove('first');
+        slideshow = (slideshow + 1) % slides.length;
+        slides[slideshow].classList.add('first');
+      }
+
+      setInterval(showNextSlide, 3000);
+    </script>
+  </div>
+                                                <!-- IMAGE GALLERY 1-->
+
+    <div style="
+      width: 100%;
+      margin: auto;
+      margin-top: 2%;
+      display: flex;
+      ">
+          <div class="section1 sectionMargin1">
+            <img class="bodystep1" src="bodystep.jpeg" width="100%" height="auto">
+            <h2>60 mins cardio</h2>
+            <p>BODY STEP</p>
+            <button class="btn1">View Class</button>
+          </div>
+
+          <div class="section2 sectionMargin2">
+            <img class="bodystep2" src="bodyjam.jpeg" width="100%" height="auto">
+            <h2>60 mins dance</h2>
+            <p>BODY JAM</p>
+            <button class="btn2">View Class</button>
+          </div>
+
+          <div class="section3 sectionMargin3">
+            <img class="bodystep3" src="bodybalance.jpeg" width="100%" height="auto">
+            <h2>60 mins mind and body</h2>
+            <p>BODY BALANCE</p>
+            <button class="btn3">View Class</button>
+          </div>
+          </div>
+
+                                              <!-- IMAGE GALLERY 2 -->
+    <div style="
+        width:100%;
+        margin:auto;
+        margin-top: 2%;
+        display: flex;
+        ">
+            <div class="section4 sectionMargin4">
+              <img class="bodystep4" src="advanceflow.jpeg" width="100%" height="auto">
+              <h2>90 mins mind & body</h2>
+              <p>ADVANCED FLOW YOGA</p>
+              <button class="btn4">View Class</button>
+            </div>
+
+            <div class="section5 sectionMargin5">
+              <img class="bodystep5" src="coreflow.jpeg" width="100%" height="auto">
+              <h2>60 mins mind & body</h2>
+              <p>CORE FLOW YOGA</p>
+              <button class="btn5">View Class</button>
+            </div>
+
+            <div class="section6 sectionMargin6">
+              <img class="bodystep6" src="strength.jpeg" width="100%" height="auto">
+              <h2>30 mins strength and conditioning</h2>
+              <p>CORE</p>
+              <button class="btn6">View Class</button>
+            </div>
+            </div>
+            
+
+                                        <!-- YOUTUBE LINK & GOOGLE MAP -->
+<nav class="navibar">
+<div class="container">
+  <!-- YouTube Embed -->
+    <div class="youtube">
+    <iframe height="345" src="https://www.youtube.com/embed/FeR-4_Opt-g" title="YouTube Video" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    </div>
+                                      
+  <!-- Google Map Embed -->
+    <div class="googlemap">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31578.448285953862!2d124.80585439138173!3d8.37152680588068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1732093450613!5m2!1sen!2sph" 
+       height="345" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Google Map Location">
+    </iframe>
+    </div>
+    </div>
+  </nav> 
+
+                                           <!-- CONTACT INFO -->
+<body>
+<nav class="navibari">
+  <div class="footer-content">
+    <div class="footer-left">
+      <h2>Next Level Fitness</h2>
+      <p>Contact Us: 09973486196</p>
+      <div class="social-icons">
+        <a href="#" class="icon"><img src="linkin.jfif" alt="Link"></a>
+        <a href="#" class="icon"><img src="yt.jfif" alt="YouTube"></a>
+        <a href="#" class="icon"><img src="ig.jfif" alt="Instagram"></a>
+        <a href="#" class="icon"><img src="twitter.jfif" alt="Twitter"></a>
+      </div>
+    </div>
+  <div class="footer-right">
+    <a href="#">FAQs</a>
+    <a href="#">Cookies Policy</a>
+    <a href="#">Privacy Policy</a>
+    <a href="#">Terms and Conditions</a>
+  </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024 All rights reserved</p>
+  </div>
+  </nav>
+</body>
+
+
+
+ 
+
+    
+    </div>
+  </div>
+</main>
+</body>
+</html>
+    
+</body>
+</html>
